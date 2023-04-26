@@ -1,0 +1,52 @@
+:root {
+  --ff-primary: 'Asap', sans-serif;
+  --ff-secondary: 'PT Mono', monospace;
+
+  --fw--reg: 400;
+
+  --clr-bg: #0B1117;
+  --clr-accent: #231F0F;
+  --clr-accent2: #282E33;
+  --clr-accent3: #02060A;
+  --clr-light: #ffffff;
+}
+
+body {
+  background: var(--clr-bg);
+}
+
+#sheet {
+  max-width: 800px;
+  margin: 350px 100px 150px 550px;
+}
+
+
+
+h1 {
+  line-height: 1.1;
+  margin: auto;
+  text-align: center;
+  font-family: 'PT Mono', monospace;
+  color: var(--clr-light);
+}
+
+h2,
+h3,
+p,
+label {
+  line-height: 1.1;
+  margin: 0;
+  font-family: 'PT Mono', monospace;
+  color: var(--clr-light);
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;s
+}
+
+table, th, td {
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
+}

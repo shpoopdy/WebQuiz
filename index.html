@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Thingy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Quiz Thingy</h1>
+    <div id="sheet">
+      <form>
+
+        <a class="btn" href="./table.html">Results Table</a>
+        <!-- Radio Buttons -->
+        <div class="Questions">
+          <p>1.HSU Mascot is:</p>
+          <input type="radio" id="question1" value="A" name="quiz1">
+          <label id="Q1" for="question1">A.Thiccfoot</label><br>
+          <input type="radio" id="question1" value="B" name="quiz1">
+          <label id="Q1" for="question1">B.Kraken</label><br>
+          <input type="radio" id="question1" value="C" name="quiz1">
+          <label id="Q1" for="question1">C.Lumberjack</label><br>
+        </div>
+
+        <div class="Questions">
+          <p>2.What is Dr. Racket?</p>
+          <input type="radio" id="question2" value="A" name="quiz2">
+          <label id="Q2" for="question2">A.A programming language</label><br>
+          <input type="radio" id="question2" value="B" name="quiz2">
+          <label id="Q2" for="question2">B.Dr. Racket is like a soda or something</label><br>
+          <input type="radio" id="question2" value="C" name="quiz2">
+          <label id="Q2" for="question2">C.An evil Dr who is too smart for his own good</label><br>
+        </div>
+
+        <div class="Questions">
+          <p>3.How do I initialize an int variable in C++?</p>
+          <input type="radio" id="question3" value="A" name="quiz3">
+          <label id="Q3" for="question3">A.x = 5;</label><br>
+          <input type="radio" id="question3" value="B" name="quiz3">
+          <label id="Q3" for="question3">B.int x = 5;</label><br>
+          <input type="radio" id="question3" value="C" name="quiz3">
+          <label id="Q3" for="question3">C.let x = 5;</label><br>
+        </div>
+
+        <!-- Truth or False -->
+        <div class="Questions">
+          <p>4.Java and JavaScript are virtually the same</p>
+          <input type="radio" id="question4" value="True" name="quiz4">
+          <label id="Q4" for="question4">True</label><br>
+          <input type="radio" id="question4" value="False" name="quiz4">
+          <label id="Q4" for="question4">False</label><br>
+        </div>
+
+        <div class="Questions">
+          <p>5.Python is widely used for data analysis</p>
+          <input type="radio" id="question5" value="True" name="quiz5">
+          <label id="Q5" for="question5">True</label><br>
+          <input type="radio" id="question5" value="False" name="quiz5">
+          <label id="Q5" for="question5">False</label><br>
+        </div>
+
+        <!-- Textarea Question -->
+        <div class="Questions">
+          <p>6.PHP used to stand for ________ Home Page</p>
+          <input type="text" id="question6" name="quiz6">
+          <label id="Q6" for="question6"></label><br>
+        </div>
+
+        <div class="Questions">
+          <label id="Q7" for="name">Please enter a name</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <input id="btn" type="submit" value="Submit" hidden>
+      </form>
+      <button for="next" id="next">Next</button>
+
+      <script src="./index.js"></script>
+      <div id="score"></div>
+    </div>
+
+
+  </body>
+</html>
